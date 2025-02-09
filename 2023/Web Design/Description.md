@@ -1,0 +1,2 @@
+- Website created using HTML, CSS, JS, Jquery and ASP.NET MVC
+- Final_Project is a .sln folder, ie, folder has to be opened in Visual Studio for configurations to work properly
