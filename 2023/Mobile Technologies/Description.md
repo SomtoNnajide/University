@@ -1,0 +1,3 @@
+- The aim of this project is to build an android application, predominantly with Java, connected to both local and cloud databases, in this case, SQLlite and Firebase was used
+- More detail can be found in "Project brief"
+- Source code is an Android project. Some functionality may not work as intended due to changes to firebase/api access
