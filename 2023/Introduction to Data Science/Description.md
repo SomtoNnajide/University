@@ -1,4 +1,4 @@
-In this assignment, you are given four data files in the CSV format. These files are collected from the internet for the COVID-19 pandemic for different regions and countries around the world for the period between 1/1/2020 and 5/5/2020. The data are described below. However, please note that the data is quite messy. You are asked to write R code (in the RMarkdown format) to import and wrangle these data files and put them in reasonable format to conduct analysis and do data-driven modelling on them.
+In this assignment, I was given four data files in the CSV format. These files are collected from the internet for the COVID-19 pandemic for different regions and countries around the world for the period between 1/1/2020 and 5/5/2020. The data are described below. However, please note that the data is quite messy. The aim is to write R code (in the RMarkdown format) to import and wrangle these data files and put them in reasonable format to conduct analysis and do data-driven modelling on them.
 
 The assignment is composed of four tasks, collated under the folder "Assignment Tasks" with accompanying questions in the .rmd files.
 
