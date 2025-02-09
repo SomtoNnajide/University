@@ -1,0 +1,189 @@
+﻿body{
+    margin: 0;
+    padding: 0;
+}
+
+.fwh-slide {
+    min-height: 100vh;
+    box-sizing: border-box;
+    margin-top: -1rem;
+    position: relative;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+/* Hide the scrollbar, but retain the ability to scroll */
+body::-webkit-scrollbar {
+    width: 0.01em; 
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: transparent; /* Hide the scrollbar thumb */
+}
+
+.custom-navbar {
+    background-color: black;
+}
+
+.custom-navbar-text{
+    color: white;
+}
+
+.video-background {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    position: absolute; /* Position the video absolutely within its parent */
+    top: 0;
+    left: 0;
+    z-index: -2;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(1,1,1,0.4); 
+    z-index: -1;
+}
+
+.parallax {
+    background-image: url("/images/background/bg2.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    margin-bottom: -16px;
+}
+
+.index-header {
+    font-family: 'Anton', sans-serif;
+    background-image: linear-gradient(to right, brown, brown, yellow, white, yellow, brown, brown);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: brown;
+    padding: 9vw 2vw 0vw 2vw;
+    text-align: center;
+    font-size: 8vw;
+}
+
+.index-p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vw;
+    text-align: center;
+    color: white;
+}
+
+picture {
+    height: auto;
+    position: relative;
+    max-width: 250px;
+}
+
+#IndexPage img {
+    width: 100%;
+    height: auto;
+}
+
+.section-p {
+    font-size: 20px;
+    color: white;
+    text-align: left;
+}
+
+.section-header {
+    font-size: 50px;
+    font-weight: bold;
+    color: orange;
+    text-shadow: 2px 2px black, 3px 3px 5px white;
+}
+
+#IndexPage article {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-color: yellow;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+}
+
+.article-with-top-border {
+    border-top-style: solid;
+    border-top-width: 2px;
+}
+
+span{
+    color: lightskyblue;
+}
+
+a{
+    color: grey;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: white;
+}
+
+.block-b4-footer, #text-b4-footer {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    background-color: #222222;
+    color: white;
+    text-align: left;
+}
+
+footer > section {
+    padding: 5px;
+}
+
+.fa{
+    text-decoration: underline;
+    color: gray;
+}
+
+figure {
+    height: auto;
+    width: 100%;
+    position: relative;
+    color: gray;
+}
+
+figcaption {
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    position: absolute;
+    background-image: linear-gradient(to right, grey, white, grey);
+    font-family: Arial, sans-serif;
+    color: blue;
+    text-shadow: 2px 2px white;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 1vw;
+    visibility: visible;
+    opacity: 1;
+}
+
+figure:hover > figcaption {
+    transition: visibility 2s, opacity 2s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#IndexPage .no-bottom-border{
+    border-bottom-style: none;
+}

@@ -1,0 +1,55 @@
+﻿#CreatePage {
+    background-image: url("/images/background/bg2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 100vh;
+    position: relative;
+    margin-top: -1rem;
+    margin-right: -12px;
+    margin-left: -12px;
+    margin-bottom: -16px;
+    overflow-x: hidden;
+}
+
+.genai-header {
+    font-size: 70px;
+    font-weight: bold;
+    color: goldenrod;
+    text-shadow: 2px 2px black, 3px 3px 5px blue;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.control-label{
+    color: white;
+    font-size: 20px;
+}
+
+#CreatePage article {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-color: yellow;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 30px;
+}
+
+#CreatePage section {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#CreatePage a {
+    font-size: 20px;
+    margin-left: 1%;
+}
+
+input.btn.btn-primary{
+    margin-bottom: 30px;
+}

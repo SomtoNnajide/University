@@ -1,0 +1,123 @@
+﻿#JobsPage {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin-top: -1rem;
+    margin-right: -12px;
+    margin-left: -12px;
+}
+
+#jobs-section-1 {
+    background-image: url("/images/background/bg1.jpg");
+}
+
+#jobs-section-2 {
+    background-image: url("/images/background/bg3.jpg");
+}
+
+.jobs-section {
+    min-height: 100vh;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.jobs-parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jobs-header {
+    font-family: 'Anton', sans-serif;
+    background-image: linear-gradient(to right, brown, brown, yellow, white, yellow, brown, brown);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 12vw 2vw 0vw 2vw;
+    text-align: center;
+    font-size: 8vw;
+}
+
+.jobs-section-header {
+    font-size: 50px;
+    font-weight: bold;
+    color: orange;
+    text-shadow: 2px 2px black, 3px 3px 5px white;
+}
+
+#JobsPage section > p {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    font-size: 2vw;
+}
+
+.jobs-blue-div {
+    height: 100%;
+    color: white;
+    background-color: #1a0e9e70;
+    border: 1px solid white;
+    text-align: center;
+}
+
+#JobsPage article {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-color: yellow;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#JobsPage i{
+    color: white;
+    font-size: 30px;
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 5px;
+}
+
+th {
+    background-color: navy;
+    color: yellow;
+    text-align: center;
+}
+
+tr {
+    background-color: white;
+    color: navy;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+#py-table{
+    overflow: auto;
+}
+
+#JobsPage #jobs-salaries {
+    border-bottom: none;
+}
+
+#JobsPage div > img{
+    width: 100%;
+}
+
+@media (min-width: 768px) and (max-width: 1200px){
+    #job-distribution, #top-5-companies {
+        font-size: 35px;
+    }
+}

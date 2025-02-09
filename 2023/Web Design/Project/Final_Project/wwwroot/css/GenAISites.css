@@ -1,0 +1,60 @@
+﻿#GenAISites {
+    background-image: url("/images/background/bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 100vh;
+    position: relative;
+    margin-top: -1rem;
+    margin-right: -12px;
+    margin-left: -12px;
+    margin-bottom: -16px;
+    overflow-x: hidden;
+}
+
+#GenAISites img {
+    width: 100%;    
+    height: auto;
+}
+
+#gen-ai-sites-link {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.sites-header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: blue;
+    text-shadow: 2px 2px white;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.orange {
+    background: linear-gradient(to bottom, #ff9933, #ffe6cc, white, white);
+}
+
+.blue {
+    background: linear-gradient(to bottom, #3333ff, #ccccff, white, white);
+}
+
+#GenAISites article p{
+    color: black
+}
+
+#GenAISites section{
+    padding: 0;
+}
+
+#GenAISites div {
+    margin-left: 3%;
+    margin-right: 3%;
+}

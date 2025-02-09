@@ -1,0 +1,77 @@
+﻿#ContactsPage {
+    background-image: url("/images/background/bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 100vh;
+    position: relative;
+    margin-top: -1rem;
+    margin-right: -12px;
+    margin-left: -12px;
+    margin-bottom: -16px;
+    overflow-x: hidden;
+}
+
+#ContactsPage section > div {
+    height: 300px;
+    color: white;
+    background-color: #1a0e9e70;
+    border: 1px solid white;
+    box-shadow: 7px 7px rgba(250,250,210);
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+#ContactsPage section > div > h1 {
+    font-size: 2em;
+    font-family: 'Niconne', cursive;
+    color: yellow;
+    padding-top: 10px;
+    border-bottom-style: solid;
+    border-bottom-color: yellow;
+    border-top-width: 2px;
+    text-shadow: 2px 2px black, 3px 3px 5px blue;
+}
+
+#ContactsPage section > div > p{
+    color: lightgoldenrodyellow;
+}
+
+/* Media queries */
+@media (min-width: 768px) and (max-width: 1200px) {
+    #ContactsPage section > div {
+        height: 400px;
+    }
+}
+
+/*Tablet screens*/
+@media (min-width: 576px) and (max-width: 768px) {
+    #ContactsPage section > div {
+        box-shadow: none;
+        height: 300px;
+        border: none;
+        margin: 0;
+    }
+}
+
+/*Mobile phone screens*/
+@media (max-width: 576px) {
+    #ContactsPage section > div {
+        height: 300px;
+        box-shadow: none;
+        border: none;
+        margin: 0;
+    }
+}
+
+.contacts-header {
+    font-family: 'Anton', sans-serif;
+    background-image: linear-gradient(to right, brown, brown, yellow, white, yellow, brown, brown);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 12vw 2vw 0vw 2vw;
+    text-align: center;
+    font-size: 8vw;
+}

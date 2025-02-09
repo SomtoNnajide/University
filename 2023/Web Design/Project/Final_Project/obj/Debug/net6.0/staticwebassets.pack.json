@@ -1,0 +1,545 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Final_Project.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Final_Project.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\css\\ContactsPage.css",
+      "PackagePath": "staticwebassets\\css\\ContactsPage.css"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\css\\CreatePage.css",
+      "PackagePath": "staticwebassets\\css\\CreatePage.css"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\css\\DeletePage.css",
+      "PackagePath": "staticwebassets\\css\\DeletePage.css"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\css\\EditPage.css",
+      "PackagePath": "staticwebassets\\css\\EditPage.css"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\css\\GenAIPage.css",
+      "PackagePath": "staticwebassets\\css\\GenAIPage.css"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\css\\GenAISites.css",
+      "PackagePath": "staticwebassets\\css\\GenAISites.css"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\css\\IndexPage.css",
+      "PackagePath": "staticwebassets\\css\\IndexPage.css"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\css\\Jobs.css",
+      "PackagePath": "staticwebassets\\css\\Jobs.css"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\css\\LoginPartial.css",
+      "PackagePath": "staticwebassets\\css\\LoginPartial.css"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\css\\elastic-grid.min.css",
+      "PackagePath": "staticwebassets\\css\\elastic-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\csv\\salaries2023.csv",
+      "PackagePath": "staticwebassets\\csv\\salaries2023.csv"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\images\\background\\Blockchain3.jpg",
+      "PackagePath": "staticwebassets\\images\\background\\Blockchain3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\images\\background\\CloudComputing.jpg",
+      "PackagePath": "staticwebassets\\images\\background\\CloudComputing.jpg"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\images\\background\\Robotics2.jpg",
+      "PackagePath": "staticwebassets\\images\\background\\Robotics2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\images\\background\\bg1.jpg",
+      "PackagePath": "staticwebassets\\images\\background\\bg1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\images\\background\\bg2.jpg",
+      "PackagePath": "staticwebassets\\images\\background\\bg2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\images\\background\\bg3.jpg",
+      "PackagePath": "staticwebassets\\images\\background\\bg3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\images\\background\\bg4.jpg",
+      "PackagePath": "staticwebassets\\images\\background\\bg4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\images\\background\\bg5.jpg",
+      "PackagePath": "staticwebassets\\images\\background\\bg5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\images\\background\\bg6.jpg",
+      "PackagePath": "staticwebassets\\images\\background\\bg6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\images\\background\\bg7.jpg",
+      "PackagePath": "staticwebassets\\images\\background\\bg7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\images\\genai\\amazon_large.jpg",
+      "PackagePath": "staticwebassets\\images\\genai\\amazon_large.jpg"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\images\\genai\\amazon_thumbnail.jpg",
+      "PackagePath": "staticwebassets\\images\\genai\\amazon_thumbnail.jpg"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\images\\genai\\bard_large.jpg",
+      "PackagePath": "staticwebassets\\images\\genai\\bard_large.jpg"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\images\\genai\\bard_thumbnail.jpg",
+      "PackagePath": "staticwebassets\\images\\genai\\bard_thumbnail.jpg"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\images\\genai\\chatgpt_large.jpg",
+      "PackagePath": "staticwebassets\\images\\genai\\chatgpt_large.jpg"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\images\\genai\\chatgpt_thumbnail.jpg",
+      "PackagePath": "staticwebassets\\images\\genai\\chatgpt_thumbnail.jpg"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\images\\genai\\dalle_large.jpg",
+      "PackagePath": "staticwebassets\\images\\genai\\dalle_large.jpg"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\images\\genai\\dalle_thumbnail.jpg",
+      "PackagePath": "staticwebassets\\images\\genai\\dalle_thumbnail.jpg"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\images\\genai\\githubcopilot_large.jpg",
+      "PackagePath": "staticwebassets\\images\\genai\\githubcopilot_large.jpg"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\images\\genai\\githubcopilot_thumbnail.jpg",
+      "PackagePath": "staticwebassets\\images\\genai\\githubcopilot_thumbnail.jpg"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\images\\genai\\google_large.jpg",
+      "PackagePath": "staticwebassets\\images\\genai\\google_large.jpg"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\images\\genai\\google_thumbnail.jpg",
+      "PackagePath": "staticwebassets\\images\\genai\\google_thumbnail.jpg"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\images\\genai\\ibm_large.jpg",
+      "PackagePath": "staticwebassets\\images\\genai\\ibm_large.jpg"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\images\\genai\\ibm_thumbnail.jpg",
+      "PackagePath": "staticwebassets\\images\\genai\\ibm_thumbnail.jpg"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\images\\genai\\midjourney_large.jpg",
+      "PackagePath": "staticwebassets\\images\\genai\\midjourney_large.jpg"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\images\\genai\\midjourney_thumbnail.jpg",
+      "PackagePath": "staticwebassets\\images\\genai\\midjourney_thumbnail.jpg"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\images\\genai\\ms_large.jpg",
+      "PackagePath": "staticwebassets\\images\\genai\\ms_large.jpg"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\images\\genai\\ms_thumbnail.jpg",
+      "PackagePath": "staticwebassets\\images\\genai\\ms_thumbnail.jpg"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\images\\genai\\synthesia_large.jpg",
+      "PackagePath": "staticwebassets\\images\\genai\\synthesia_large.jpg"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\images\\genai\\synthesia_thumbnail.jpg",
+      "PackagePath": "staticwebassets\\images\\genai\\synthesia_thumbnail.jpg"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\images\\genai\\x.jpg",
+      "PackagePath": "staticwebassets\\images\\genai\\x.jpg"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\images\\genaisites\\amazon_thumbnail.jpg",
+      "PackagePath": "staticwebassets\\images\\genaisites\\amazon_thumbnail.jpg"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\images\\genaisites\\bard.jpg",
+      "PackagePath": "staticwebassets\\images\\genaisites\\bard.jpg"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\images\\genaisites\\bard_thumbnail.jpg",
+      "PackagePath": "staticwebassets\\images\\genaisites\\bard_thumbnail.jpg"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\images\\genaisites\\chatgpt.jpg",
+      "PackagePath": "staticwebassets\\images\\genaisites\\chatgpt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\images\\genaisites\\chatgpt_thumbnail.jpg",
+      "PackagePath": "staticwebassets\\images\\genaisites\\chatgpt_thumbnail.jpg"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\images\\genaisites\\dalle.jpg",
+      "PackagePath": "staticwebassets\\images\\genaisites\\dalle.jpg"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\images\\genaisites\\dalle_thumbnail.jpg",
+      "PackagePath": "staticwebassets\\images\\genaisites\\dalle_thumbnail.jpg"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\images\\genaisites\\githubcopilot_thumbnail.jpg",
+      "PackagePath": "staticwebassets\\images\\genaisites\\githubcopilot_thumbnail.jpg"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\images\\genaisites\\google.jpg",
+      "PackagePath": "staticwebassets\\images\\genaisites\\google.jpg"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\images\\genaisites\\google_thumbnail.jpg",
+      "PackagePath": "staticwebassets\\images\\genaisites\\google_thumbnail.jpg"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\images\\genaisites\\ibm_thumbnail.jpg",
+      "PackagePath": "staticwebassets\\images\\genaisites\\ibm_thumbnail.jpg"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\images\\genaisites\\iot.jpg",
+      "PackagePath": "staticwebassets\\images\\genaisites\\iot.jpg"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\images\\genaisites\\job.jpg",
+      "PackagePath": "staticwebassets\\images\\genaisites\\job.jpg"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\images\\genaisites\\microsoft.jpg",
+      "PackagePath": "staticwebassets\\images\\genaisites\\microsoft.jpg"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\images\\genaisites\\midjourney.jpg",
+      "PackagePath": "staticwebassets\\images\\genaisites\\midjourney.jpg"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\images\\genaisites\\midjourney_thumbnail.jpg",
+      "PackagePath": "staticwebassets\\images\\genaisites\\midjourney_thumbnail.jpg"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\images\\genaisites\\ms_thumbnail.jpg",
+      "PackagePath": "staticwebassets\\images\\genaisites\\ms_thumbnail.jpg"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\images\\genaisites\\pie.jpg",
+      "PackagePath": "staticwebassets\\images\\genaisites\\pie.jpg"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\images\\genaisites\\synthesia_thumbnail.jpg",
+      "PackagePath": "staticwebassets\\images\\genaisites\\synthesia_thumbnail.jpg"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\images\\genaisites\\x.jpg",
+      "PackagePath": "staticwebassets\\images\\genaisites\\x.jpg"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\js\\GenAI.js",
+      "PackagePath": "staticwebassets\\js\\GenAI.js"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\js\\GenAISites.js",
+      "PackagePath": "staticwebassets\\js\\GenAISites.js"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\js\\Index.js",
+      "PackagePath": "staticwebassets\\js\\Index.js"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\js\\LoginPartial.js",
+      "PackagePath": "staticwebassets\\js\\LoginPartial.js"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\js\\classie.js",
+      "PackagePath": "staticwebassets\\js\\classie.js"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\js\\elastic_grid.min.js",
+      "PackagePath": "staticwebassets\\js\\elastic_grid.min.js"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\js\\modernizr.custom.js",
+      "PackagePath": "staticwebassets\\js\\modernizr.custom.js"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\somto\\OneDrive\\Desktop\\BSE\\2023\\Semester 2\\Web Design\\Assignment\\Final_Project\\wwwroot\\videos\\video.mp4",
+      "PackagePath": "staticwebassets\\videos\\video.mp4"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Final_Project.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Final_Project.props",
+      "PackagePath": "build\\Final_Project.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Final_Project.props",
+      "PackagePath": "buildMultiTargeting\\Final_Project.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Final_Project.props",
+      "PackagePath": "buildTransitive\\Final_Project.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,65 @@
+﻿#GenAIPage {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin-top: -1rem;
+    margin-right: -12px;
+    margin-left: -12px;
+}
+
+#eg-border-separator {
+    border-top-style: solid;
+    border-top-width: 2px;
+    color: yellow;
+}
+
+#eg-popup-header {
+    padding-bottom: 5px;
+}
+
+.gen-ai-parralax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gen-ai-section {
+    min-height: 100vh;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.elastic-grid {
+    padding-top: 10%;
+}
+
+.eg-header-container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.eg-header {
+    font-family: 'Anton', sans-serif;
+    background-image: linear-gradient(to right, yellow, white, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: brown;
+    padding: 9vw 2vw 0vw 2vw;
+    text-align: center;
+    font-size: 8vw;
+}
+
+#Tools {
+    background-image: url("/images/background/bg5.jpg");
+}
+
+#Orgs {
+    background-image: url("/images/background/bg6.jpg");
+}
+
+#Applications {
+    background-image: url("/images/background/bg7.jpg");
+}

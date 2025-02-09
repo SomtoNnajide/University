@@ -1,0 +1,63 @@
+﻿@model Final_Project.Models.GenAI
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<div id="CreatePage">
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger">
+            @TempData["ErrorMessage"]
+        </div>
+    }
+
+    <article>
+        <h1 class="genai-header">Add New GenAI Website</h1>
+    </article>
+
+    <div class="row">
+        <div class="col-12">
+            <form asp-action="Create" enctype="multipart/form-data">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <section>
+                    <div class="form-group">
+                        <label asp-for="GenAIName" class="control-label"></label>
+                        <input asp-for="GenAIName" class="form-control" />
+                        <span asp-validation-for="GenAIName" class="text-danger"></span>
+                    </div>
+                </section>
+
+                <section>
+                    <div class="form-group">
+                        <label asp-for="Summary" class="control-label"></label>
+                        <textarea asp-for="Summary" class="form-control" rows="5"></textarea>
+                        <span asp-validation-for="Summary" class="text-danger"></span>
+                    </div>
+                </section>
+
+                <section>
+                    <div class="form-group">
+                        <label class="control-label">Upload image file</label>
+                        <input type="file" name="file" class="form-control" />
+                    </div>
+                </section>
+
+                <section>
+                    <div class="form-group">
+                        <input type="submit" value="Create" class="btn btn-primary" />
+                    </div>
+                </section>
+            </form>
+        </div>
+    </div>
+ 
+    <div>
+        <a href="/Home/GenAISites">Back to GenAI Websites</a>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,78 @@
+﻿#DeletePage {
+    background-image: url("/images/background/bg2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 100vh;
+    position: relative;
+    margin-top: -1rem;
+    margin-right: -12px;
+    margin-left: -12px;
+    margin-bottom: -16px;
+    overflow-x: hidden;
+}
+
+.genai-header {
+    font-size: 70px;
+    font-weight: bold;
+    color: goldenrod;
+    text-shadow: 2px 2px black, 3px 3px 5px blue;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#DeletePage article {
+    padding-top: 50px;
+    padding-bottom: 70px;   
+    border-color: yellow;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#DeletePage #article-2 {
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#DeletePage h3 {
+    font-size: 50px;
+    font-weight: bold;
+    color: yellow;
+    text-shadow: 2px 2px black, 3px 3px 5px blue;
+}
+
+#DeletePage section{
+    margin-left: 10%;
+    margin-right: 10%
+}
+
+#DeletePage section dt,dd{
+    color: lightgoldenrodyellow;
+}
+
+#DeletePage section dt{
+    font-size: 30px;
+}
+
+#DeletePage section dd {
+    font-size: 20px;
+}
+
+#DeletePage dd{
+    margin-left: 30%;
+}
+
+#DeletePage form {
+    margin-left: 1%;
+    color: white;
+}
+
+#DeletePage a{
+    font-size: 20px;
+}

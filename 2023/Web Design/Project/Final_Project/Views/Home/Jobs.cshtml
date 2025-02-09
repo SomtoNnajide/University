@@ -1,0 +1,131 @@
+﻿<script defer src="https://pyscript.net/latest/pyscript.js"></script>
+
+<py-config>
+    packages = ["numpy", "matplotlib", "pandas", "seaborn"]
+</py-config>
+
+<div id="JobsPage">
+    <section id="jobs-section-1" class="jobs-section jobs-parallax">
+        <header class="jobs-header">AI Jobs</header>
+        <p>AI Jobs Dataset: Insights AI-Jobs</p>
+        <p>Python source for tables and charts: Kaggle</p>
+    </section>
+
+    <section id="jobs-section-2" class="jobs-section jobs-parallax">
+        @*Top 5 companies*@
+        <article class="row">
+            <section class="col-md-3 col-12">
+                <div class="jobs-blue-div">
+                    <header id="top-5-companies" class="jobs-section-header">Top 5 Companies</header> <br />
+                    <i>according to number of</i> <br />
+                    <i>employees</i>
+                </div>
+            </section>
+
+            <section class="col-md-9 col-12">
+                <py-script>
+                    import pandas as pd
+                    import numpy as np
+                    import matplotlib.pyplot as plt
+                    import seaborn as sns
+
+                    from pyodide.http import open_url
+
+                    url = open_url("/csv/salaries2023.csv")
+                    df = pd.read_csv(url)
+
+                    display(df.head(n=5), target="py-table", append=False)
+                </py-script>
+                <div id="py-table"></div>
+            </section>
+        </article>
+
+        @*Job distribution*@
+        <article class="row">
+            <section class="col-md-9 col-12">
+                <py-script>
+                    import pandas as pd
+                    import numpy as np
+                    import matplotlib.pyplot as plt
+
+                    from pyodide.http import open_url
+
+                    url = open_url("/csv/salaries2023.csv")
+                    df = pd.read_csv(url)
+
+                    top_jobs = df.job_title.value_counts()[: 7]
+                    m = df.shape[0]
+
+                    job_distribution = top_jobs*100/m
+                    job_distribution.plot(kind = 'pie', autopct = '%1.0f%%', figsize = (11.9, 5))
+
+                    plt.title('Job distribution among top 10 in demand job title')
+                    display(plt, target="py-chart", append=False)
+                </py-script>
+                <div id="py-chart"></div>
+            </section>
+
+            <section class="col-md-3 col-12">
+                <div class="jobs-blue-div">
+                    <header id = "job-distribution" class="jobs-section-header">Job distribution</header> <br />
+                    <i>among top 10 in demand</i> <br />
+                    <i>job title</i>
+                </div>
+            </section>
+        </article>
+
+        @*Salaries*@
+        <article id="jobs-salaries" class="row">
+            <section class="col-md-3 col-12">
+                <div class="jobs-blue-div">
+                    <header class="jobs-section-header">Salaries</header> <br />
+                    <i>in the last 3 years</i>
+                </div>
+            </section>
+
+            <section class="col-md-9 col-12">
+                <py-script>
+                    import pandas as pd
+                    import numpy as np
+                    import matplotlib.pyplot as plt
+                    import seaborn as sns
+
+                    from pyodide.http import open_url
+
+                    url = open_url("/csv/salaries2023.csv")
+                    df = pd.read_csv(url)
+
+                    plt.figure(2)
+                    plt.figure(figsize = (11.9, 5))
+                    sns.barplot(x = 'work_year', y = 'salary_in_usd', data = df, hue='work_year', palette='tab10', legend=False)
+
+                    plt.title("Salaries")
+                    display(plt, target="py-bar-chart", append=False)
+                </py-script>
+                <div id="py-bar-chart"></div>
+            </section>
+        </article>
+    </section>
+</div>
+
+<footer class="row">
+    <section class="row">
+        <div class="col-md-3 col-sm-6 col-12"><a class="footer-link" href="/Home/Index">Home</a></div>
+        <div class="col-md-3 col-sm-6 col-12"><a class="footer-link" href="/Home/Jobs">Jobs</a></div>
+        <div class="col-md-3 col-sm-6 col-12"><a class="footer-link" href="/Home/Contact">About Us</a></div>
+        <div class="col-md-3 col-sm-6 col-12">Follow Us</div>
+    </section>
+
+    <section class="row">
+        <div class="col-md-3 col-sm-6 col-12"><a class="footer-link" href="/Home/GenAISites">Gen AI Sites</a></div>
+        <div class="col-md-3 col-sm-6 col-12"><a class="footer-link" href="/Home/Contact">Contact</a></div>
+        <div class="col-md-3 col-sm-6 col-12"><a class="footer-link" href="/Home/Contact">Copyright Info</a></div>
+        <div class="col-md-3 col-sm-6 col-12">
+            <i class="fa fa-google"></i>
+            <i class="fa fa-youtube"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+    </section>
+</footer>

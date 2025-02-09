@@ -1,0 +1,191 @@
+﻿@model IEnumerable<Final_Project.Models.GenAI>
+
+@{
+    ViewData["Title"] = "Artificial Intelligence";
+}
+
+<div id="IndexPage">
+    <section class="fwh-slide">
+        <video loop muted autoplay="autoplay" preload="auto" class="video-background">
+            <source src="/videos/video.mp4" type="video/mp4">
+            Video not supported.
+        </video>
+
+        <div class="overlay"></div>
+
+        <div>
+            <header class="index-header">Generative AI Technology</header>
+            <p class="index-p">
+                Any time an AI technology is generating something on its <br />
+                own, it can be referred to as "generative AI." This umbrella <br />
+                term includes learning algorithms that make predictions <br />
+                as well as those that can use prompts to autonomously <br />
+                write articles and paint pictures. <br />
+                <i>Techopedia</i>
+            </p>
+        </div>
+    </section>
+
+    <section class="fwh-slide parallax">
+        @*GenAI Tools*@
+        <article class="row disappearing-article">
+            <section class="col-md-6 col-sm-12 col-12">
+                <header class="section-header">GenAI Tools</header>
+                <p class="section-p">
+                    Generative AI tools refer to software or systems that use neural <br />
+                    network techniques to process and comprehend input data,<br />
+                    subsequently producing meaningful responses.<br />
+                    <i>Scribehow</i><a class="btn btn-outline-light" href="/Home/GenAI#Tools">Read More</a>
+                </p>
+            </section>
+
+            <section class="col-md-3 col-sm-6 col-6">
+                <picture>
+                    <img src="/images/genai/bard_thumbnail.jpg" alt="GoogleBard" class="img-fluid">
+                </picture>
+            </section>
+
+            <section class="col-md-3 col-sm-6 col-6">
+                <picture>
+                    <img src="/images/genai/midjourney_thumbnail.jpg" alt="MidJourney" class="img-fluid">
+                </picture>
+            </section>
+        </article>
+
+        @*GenAI Organisations*@
+        <article class="row article-with-top-border disappearing-article">
+            <section class="col-md-3 col-sm-6 col-6">
+                <picture>
+                    <img src="/images/genai/ms_thumbnail.jpg" alt="GoogleBard" class="img-fluid">
+                </picture>
+            </section>
+
+            <section class="col-md-3 col-sm-6 col-6">
+                <picture>
+                    <img src="/images/genai/google_thumbnail.jpg" alt="MidJourney" class="img-fluid">
+                </picture>
+            </section>
+
+            <section class="col-md-6 col-sm-12 col-12">
+                <header class="section-header">GenAI Organisations</header>
+                <p class="section-p">
+                    Generative AI Organizations like Microsoft, Google, Amazon <br />
+                    and IBM have invested hundreds of millions of dollars and <br />
+                    massive compute power to build the foundational models on <br />
+                    which services like ChatGPT and others depend. <br />
+                    <i>Gartner</i><a class="btn btn-outline-light" href="/Home/GenAI#Orgs">Read More</a>
+                </p>
+            </section>
+        </article>
+
+        @*GenAI Applications*@
+        <article class="row article-with-top-border disappearing-article">
+            <section class="col-md-6 col-sm-12 col-12">
+                <header class="section-header">GenAI Applications</header>
+                <p class="section-p">
+                    <span>Text</span>: GPT-3, LaMDA, LLaMA, BLOOM and GPT-4.<br />
+                    <span>Code</span>: OpenAI Codex. <br />
+                    <span>Images</span>: DALL-E, Midjourney and Stable Diffusion. <br />
+                    <span>Video</span>: Make-A-Video (Meta Platforms). <br />
+                    <i>Wikipedia</i><a class="btn btn-outline-light" href="/Home/GenAI#Applications">Read More</a>
+                </p>
+            </section>
+
+            <section class="col-md-3 col-sm-6 col-6">
+                <picture>
+                    <img src="/images/genai/chatgpt_thumbnail.jpg" alt="GoogleBard" class="img-fluid">
+                </picture>
+            </section>
+
+            <section class="col-md-3 col-sm-6 col-6">
+                <picture>
+                    <img src="/images/genai/dalle_thumbnail.jpg" alt="MidJourney" class="img-fluid">
+                </picture>
+            </section>
+        </article>
+
+        @*AI Jobs*@
+        <article class="row article-with-top-border disappearing-article">
+            <section class="col-md-3 col-sm-6 col-6">
+                <picture>
+                    <img src="/images/genaisites/pie.jpg" alt="GoogleBard" class="img-fluid">
+                </picture>
+            </section>
+
+            <section class="col-md-3 col-sm-6 col-6">
+                <picture>
+                    <img src="/images/genaisites/job.jpg" alt="MidJourney" class="img-fluid">
+                </picture>
+            </section>
+
+            <section class="col-md-6 col-sm-12 col-12">
+                <header class="section-header">AI Jobs</header>
+                <p class="section-p">
+                    The prime source for jobs and talents in AI, ML, Data Science<br />
+                    and Big Data: <a href="https://ai-jobs.net/">Insights AI-Jobs</a> <br />
+                    Python source for tables and charts: <a href="https://www.kaggle.com/code/sowrabhghosh/data-science-salary-2020-22-analysis">Kaggle.</a> <br />
+                    <a class="btn btn-outline-light" href="/Home/Jobs">Read More</a>
+                </p>
+            </section>
+        </article>
+
+        @*List of Generative AI Websites*@
+        <article class="row block-b4-footer no-bottom-border">
+            <section class="col-12">
+                <header class="section-header">List of Generative AI Websites</header>
+                @{
+                    if (User.Identity.IsAuthenticated)
+                    {
+                        <p class="section-p" id="text-b4-footer">
+                            <i><a asp-area="" asp-controller="GenAIs" asp-action="Create">Click here to add a new generative AI website.</a></i>
+                        </p>
+                    }
+                    else
+                    {
+                        <p class="section-p" id="text-b4-footer">
+                            <i>Please <a asp-area="Identity" asp-page="/Account/Login">login</a> or <a asp-area="Identity" asp-page="/Account/Register">register</a> to add a new generative AI website.</i>
+                        </p>
+                    }
+                }
+            </section>
+        </article>
+
+        @*Gen-AI-blocks*@
+        <article id="gen-ai-blocks" class="row">
+            @foreach (var item in Model.OrderByDescending(item => item.Like))
+            {  
+                <div class="col-md-2 col-sm-4 col-6">
+                    <figure>
+                        <a href="/Home/GenAISites#@Html.DisplayFor(modelItem => item.Id)">
+                            <img src="/images/@Html.DisplayFor(modelItem => item.ImageFilename)" />
+                        </a>
+                        <figcaption>@Html.DisplayFor(modelItem => item.GenAIName)</figcaption>
+                    </figure>
+                </div>
+            }
+        </article>
+    </section>
+
+    <footer class="row">
+        <section class="row">
+            <div class="col-md-3 col-sm-6 col-12"><a class="footer-link" href="/Home/Index">Home</a></div>
+            <div class="col-md-3 col-sm-6 col-12"><a class="footer-link" href="/Home/Jobs">Jobs</a></div>
+            <div class="col-md-3 col-sm-6 col-12"><a class="footer-link" href="/Home/Contact">About Us</a></div>
+            <div class="col-md-3 col-sm-6 col-12">Follow Us</div>
+        </section>
+
+        <section class="row">
+            <div class="col-md-3 col-sm-6 col-12"><a class="footer-link" href="/Home/GenAISites">Gen AI Sites</a></div>
+            <div class="col-md-3 col-sm-6 col-12"><a class="footer-link" href="/Home/Contact">Contact</a></div>
+            <div class="col-md-3 col-sm-6 col-12"><a class="footer-link" href="/Home/Contact">Copyright Info</a></div>
+            <div class="col-md-3 col-sm-6 col-12">
+                <i class="fa fa-google"></i>
+                <i class="fa fa-youtube"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+        </section>
+    </footer>
+</div>
+

@@ -1,0 +1,60 @@
+﻿@model IEnumerable<Final_Project.Models.GenAI>
+
+<div id="GenAISites">
+    <header class="index-header">Generative AI Technology</header>
+
+    <p class="section-p" id="gen-ai-sites-link">
+        <i><a asp-area="" asp-controller="GenAIs" asp-action="Create">Click here to add a new generative AI website.</a></i>
+    </p>
+
+    @foreach (var item in Model.OrderByDescending(item => item.Like))
+    {
+        <article class="row" id="@Html.DisplayFor(modelItem => item.Id)">
+            <section class="col-md-3 col-12">
+                <picture>
+                    <img src="/images/@Html.DisplayFor(modelItem => item.ImageFilename)" />
+                </picture>
+            </section>
+
+            <section class="col-md-9 col-12 gradient-block">
+                <h1 class="sites-header">@Html.DisplayFor(modelItem => item.GenAIName)</h1>
+
+                <div>
+                    <p>@Html.DisplayFor(modelItem => item.Summary)<p>
+                        @if(User.Identity.IsAuthenticated){  
+                            <a asp-controller="GenAIs" asp-action="IncreaseLike" asp-route-id="@item.Id" class="btn btn-primary">
+                                Like(@Html.DisplayFor(modelItem => item.Like))
+                            </a>
+                        }
+
+                        @if (User.IsInRole("admin")){
+                            <a asp-controller="GenAIs" asp-action="Edit" asp-route-id="@item.Id" class="btn btn-success">Edit</a>
+                            <a asp-controller="GenAIs" asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+                        }
+                </div>
+            </section>
+        </article>
+    }
+</div>
+
+<footer class="row">
+    <section class="row">
+        <div class="col-md-3 col-sm-6 col-12"><a class="footer-link" href="/Home/Index">Home</a></div>
+        <div class="col-md-3 col-sm-6 col-12"><a class="footer-link" href="/Home/Jobs">Jobs</a></div>
+        <div class="col-md-3 col-sm-6 col-12"><a class="footer-link" href="/Home/Contact">About Us</a></div>
+        <div class="col-md-3 col-sm-6 col-12">Follow Us</div>
+    </section>
+
+    <section class="row">
+        <div class="col-md-3 col-sm-6 col-12"><a class="footer-link" href="/Home/GenAISites">Gen AI Sites</a></div>
+        <div class="col-md-3 col-sm-6 col-12"><a class="footer-link" href="/Home/Contact">Contact</a></div>
+        <div class="col-md-3 col-sm-6 col-12"><a class="footer-link" href="/Home/Contact">Copyright Info</a></div>
+        <div class="col-md-3 col-sm-6 col-12">
+            <i class="fa fa-google"></i>
+            <i class="fa fa-youtube"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+    </section>
+</footer>
